@@ -4,4 +4,37 @@ This is a simple library which has two static methods allowing you to get/set fl
 
 Coded by [Joel Vardy][joelvardy].
 
+## Usage
+
+### Data
+
+Set data upon failure.
+
+```php
+Flash::data(array(
+	'username' => $username,
+	'email' => $email
+));
+```
+
+Read data to display on the front end:
+
+```php
+$data = Flash::data();
+```
+
+### Messages
+
+Set an error message:
+
+```php
+Flash::message('error', 'You must enter a valid email address.');
+```
+
+Read all flash messages:
+
+```php
+$messages = Flash::message();
+```
+
   [joelvardy]: https://joelvardy.com/
