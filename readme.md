@@ -37,4 +37,7 @@ Read all flash messages:
 $messages = Flash::message();
 ```
 
+You may also be interested in my [template library][template-library].
+
   [joelvardy]: https://joelvardy.com/
+  [template-library]: https://github.com/joelvardy/template
