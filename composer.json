@@ -1,0 +1,24 @@
+{
+	"name": "joelvardy/flash",
+	"type": "library",
+	"description": "Library for storing and retrieving flash data / messages.",
+	"keywords": ["flash","data","messages"],
+	"homepage": "https://github.com/joelvardy/flash",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Joel Vardy",
+			"email": "info@joelvardy.com",
+			"homepage": "https://joelvardy.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.0.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Joelvardy": "src"
+		}
+	}
+}
