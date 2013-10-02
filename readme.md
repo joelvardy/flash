@@ -4,6 +4,14 @@ This is a simple library which has two static methods allowing you to get/set fl
 
 Coded by [Joel Vardy][joelvardy].
 
+## Installation
+
+Add the following to your `composer.json` require object:
+
+```json
+"joelvardy/flash": "dev-master"
+```
+
 ## Usage
 
 ### Data
